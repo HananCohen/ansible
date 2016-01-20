@@ -11,7 +11,7 @@
 if [ "${env}" = "service(wrong env name)" ]; then 
 	echo "Wrong environment selected"
     	exit 1
-elif [ "{$env}" = "service(2nd wrong env name)" ]; then 
+elif [ "${env}" = "service(2nd wrong env name)" ]; then 
 	echo "Wrong environment selected"
     	exit 1
 elif [ "${env}" = "production(env name)" ]; then 
